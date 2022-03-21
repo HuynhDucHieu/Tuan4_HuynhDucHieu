@@ -10,7 +10,6 @@ namespace Tuan4_HuynhDucHieuLTW.Controllers
     public class GioHangController : Controller
     {
         // GET: GioHang
-
         MyDataDataContext data = new MyDataDataContext();
         public List<Giohang> Laygiohang()
         {
